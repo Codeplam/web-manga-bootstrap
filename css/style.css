@@ -1,0 +1,32 @@
+@import url('https://fonts.google.com/specimen/Shadows+Into+Light');
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: Shadows Into Light;
+	font-size: 17px;
+	color: #222;
+}
+.navbar {
+	background-image: linear-gradient(to right, rgb(235, 51, 73) 40%, rgb(244, 92, 67)) !important;
+}
+.navbar li a {
+	color: white !important;
+}
+.navbar li a:hover {
+	color: black !important;
+}
+.navbar li span {
+	padding-left: 5px;
+}
+.navbar .advanced span,a {
+	color: white !important;
+}
+.navbar .advanced a {
+	color: white !important;
+	padding-left: 10px;
+}
+.navbar .advanced a:hover {
+	color: black !important;
+	text-decoration: none;
+}
